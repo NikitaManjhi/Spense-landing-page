@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --padding-inline-section: 20px;
+}
+
+body
+{
+    background-color: #f0eeeb;
+}
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1 rem;
+    background-color: black;
+    color:beige;
+    height: 35px;
+    
+}
+.company-logo img{
+    width: 60px;
+    
+}
+
+.main-nav
+{
+    justify-content: space-between;
+    margin-top: 70px;
+   
+}
+
+.container
+{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul{
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.login ul{
+    justify-content: end;
+    gap:40px;
+    list-style-type: none;
+}
+
+.hover-links
+{
+    color: black;
+    text-decoration-line: none;
+    font-weight: 500;
+}
+
+.hover-links:hover
+{
+    color:#4F4557;
+    transition: 0.2s ease-out;
+}
+
+.button
+{
+    background-color: black;
+    color: beige !important;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.button:hover{
+    background-color:#4F4557;
+}
+
+/* Header Section */
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section
+{
+    justify-content: center;
+    gap: 100px;
+}
+
+.header-right img{
+    width: 450px;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Cabin', sans-serif;
+    color: #292929;
+    line-height: 75px;
+}
+
+p{
+    color: #7f7a6d;
+    line-height: 25px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.header-left ul{
+    list-style-image: url(Assets/Checkmark.svg);
+    padding-left: 30px;  
+    line-height-step: 10px;
+    
+}
+
+.list-items{
+    color:#5a5444; 
+    padding-left: 10px;
+    font-weight: bold;   
+    
+}
+
